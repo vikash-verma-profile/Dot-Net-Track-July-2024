@@ -1,0 +1,40 @@
+Question-1
+
+Write a C program to input basic salary of an employee and calculate its Gross salary according to following:
+Basic Salary <= 10000 : HRA = 20%, DA = 80%
+Basic Salary <= 20000 : HRA = 25%, DA = 90%
+Basic Salary > 20000 : HRA = 30%, DA = 95%
+
+
+Question-2
+Write a C# program to create a string from a given string (length 1 or more) with the first character added at the front and back.
+Sample Output:
+Input a string : The quick brown fox jumps over the lazy dog.
+TThe quick brown fox jumps over the lazy dog.T
+
+Question-3
+Write a C# Sharp program to exchange the first and last characters in a given string and return the new string.
+
+Sample Input:
+"abcd"
+"a"
+"xy"
+Expected Output:
+
+dbca
+a
+yx
+
+Question-4
+
+Write a C# Sharp program to create a string taking the first 3 characters of a given string. Return the string with the 3 characters added at both the front and back. If the given string length is less than 3, use whatever characters are there.
+
+Sample Input:
+"Python"
+"JS"
+"Code"
+Expected Output:
+PytPythonPyt
+JSJSJS
+CodCodeCod
+
