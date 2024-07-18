@@ -13,14 +13,14 @@
             Console.Write(Number1+"\t");
             Console.Write(Number2);
 
-            if ()
-            {
+            //if ()
+            //{
 
-            }
-            else
-            {
+            //}
+            //else
+            //{
 
-            }
+            //}
         }
     }
 }
