@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{335529FF-27F3-428E-A4A2-AD23F007B849}|Day-2\\Day-2.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-2\\day-2\\switchsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{335529FF-27F3-428E-A4A2-AD23F007B849}|Day-2\\Day-2.csproj|solutionrelative:day-2\\switchsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SwitchSample.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-2\\Day-2\\SwitchSample.cs",
+              "RelativeDocumentMoniker": "Day-2\\SwitchSample.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-2\\Day-2\\SwitchSample.cs",
+              "RelativeToolTip": "Day-2\\SwitchSample.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T04:21:03.084Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
