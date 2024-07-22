@@ -9,7 +9,7 @@
             b = c;      
             Console.WriteLine("Value of a and b is a= "+a+"b= "+b);
         }
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int a = 1, b = 2;
             Console.WriteLine("Value of numbers a= "+a+"b= "+b);
