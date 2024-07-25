@@ -8,13 +8,14 @@ namespace Day_4
 {
     internal class StringvsStringBuilder
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             string s = string.Empty;
             s = "Vikash";
             s.ToUpper();
             StringBuilder sb=new StringBuilder();
             sb.Append(s);
+            sb=new StringBuilder();
             sb.Clear();
             Console.WriteLine(sb.ToString());
 
