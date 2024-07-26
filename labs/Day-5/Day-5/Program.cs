@@ -20,7 +20,7 @@
     }
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Student student = new Student(1,"Vikash");
             student.PrintStudentData();
