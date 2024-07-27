@@ -26,6 +26,11 @@ namespace Day_6
             Console.WriteLine("Model Name:" + name+"\n color: "+color);
         }
 
+        public override string ToString()
+        {
+            return "Hello";
+        }
+
         //Destructor
         ~ Vehicle()
         {
@@ -34,11 +39,12 @@ namespace Day_6
     }
     internal class CopyCOnstructor
     {
-        public static void Main()
+        public static void Main2()
         {
             Vehicle v1 = new Vehicle("Bike","Black");
             Vehicle v2 = new Vehicle(v1);
             v2.PrintData();
+            Console.WriteLine(v2);
 
 
         }

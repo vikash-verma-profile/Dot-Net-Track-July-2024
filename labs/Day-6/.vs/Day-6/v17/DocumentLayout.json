@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8EA2BE56-6229-4398-847A-34B6D79B51AE}|Day-6\\Day-6.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-6\\day-6\\copyconstructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EA2BE56-6229-4398-847A-34B6D79B51AE}|Day-6\\Day-6.csproj|solutionrelative:day-6\\copyconstructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EA2BE56-6229-4398-847A-34B6D79B51AE}|Day-6\\Day-6.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-6\\day-6\\multilevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA2BE56-6229-4398-847A-34B6D79B51AE}|Day-6\\Day-6.csproj|solutionrelative:day-6\\multilevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA2BE56-6229-4398-847A-34B6D79B51AE}|Day-6\\Day-6.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-6\\day-6\\inhertiance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA2BE56-6229-4398-847A-34B6D79B51AE}|Day-6\\Day-6.csproj|solutionrelative:day-6\\inhertiance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CopyCOnstructor.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-6\\Day-6\\CopyCOnstructor.cs",
-              "RelativeDocumentMoniker": "Day-6\\CopyCOnstructor.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-6\\Day-6\\CopyCOnstructor.cs",
-              "RelativeToolTip": "Day-6\\CopyCOnstructor.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAUAAAA",
+              "Title": "Multilevel.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-6\\Day-6\\Multilevel.cs",
+              "RelativeDocumentMoniker": "Day-6\\Multilevel.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-6\\Day-6\\Multilevel.cs",
+              "RelativeToolTip": "Day-6\\Multilevel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T03:49:18.201Z",
+              "WhenOpened": "2024-07-27T05:19:54.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inhertiance.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-6\\Day-6\\Inhertiance.cs",
+              "RelativeDocumentMoniker": "Day-6\\Inhertiance.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-6\\Day-6\\Inhertiance.cs",
+              "RelativeToolTip": "Day-6\\Inhertiance.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAACAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T05:05:44.453Z",
               "EditorCaption": ""
             }
           ]
