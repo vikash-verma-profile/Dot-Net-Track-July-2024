@@ -25,6 +25,12 @@ namespace Day_6
         {
             Console.WriteLine("Model Name:" + name+"\n color: "+color);
         }
+
+        //Destructor
+        ~ Vehicle()
+        {
+                
+        }
     }
     internal class CopyCOnstructor
     {
