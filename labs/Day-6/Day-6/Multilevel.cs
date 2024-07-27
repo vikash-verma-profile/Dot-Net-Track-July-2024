@@ -30,7 +30,7 @@ namespace Day_6
     }
     internal class Multilevel
     {
-        public static void Main()
+        public static void Main4()
         {
             C c = new C();
         }

@@ -2,7 +2,8 @@ Create a new C # project with three classes plus another class to test the logic
 
 Person
 Student
-Teacher 
+Teacher
+ 
 The Student and Teacher classes inherit from the Person class.
 
 The Student class will include a public Study() method that will write I'm studying on the screen.
