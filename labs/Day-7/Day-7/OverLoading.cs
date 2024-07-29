@@ -29,7 +29,7 @@ namespace Day_7
     }
     internal class OverLoading
     {
-        public static void Main()
+        public static void Main2()
         {
             OverloadingDemo overloadingDemo = new OverloadingDemo();
             overloadingDemo.Sum();
