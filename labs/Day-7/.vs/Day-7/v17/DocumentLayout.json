@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{856CDD5C-CEA3-403A-B1B2-AC70B7651A4E}|Day-7\\Day-7.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-7\\day-7\\opeartoroverload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856CDD5C-CEA3-403A-B1B2-AC70B7651A4E}|Day-7\\Day-7.csproj|solutionrelative:day-7\\opeartoroverload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{856CDD5C-CEA3-403A-B1B2-AC70B7651A4E}|Day-7\\Day-7.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-7\\day-7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{856CDD5C-CEA3-403A-B1B2-AC70B7651A4E}|Day-7\\Day-7.csproj|solutionrelative:day-7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{856CDD5C-CEA3-403A-B1B2-AC70B7651A4E}|Day-7\\Day-7.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-7\\day-7\\overrirding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856CDD5C-CEA3-403A-B1B2-AC70B7651A4E}|Day-7\\Day-7.csproj|solutionrelative:day-7\\overrirding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OpeartorOverload.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-7\\Day-7\\OpeartorOverload.cs",
-              "RelativeDocumentMoniker": "Day-7\\OpeartorOverload.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-7\\Day-7\\OpeartorOverload.cs",
-              "RelativeToolTip": "Day-7\\OpeartorOverload.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABIAAAA4AAAA",
+              "Title": "Overrirding.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-7\\Day-7\\Overrirding.cs",
+              "RelativeDocumentMoniker": "Day-7\\Overrirding.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-7\\Day-7\\Overrirding.cs",
+              "RelativeToolTip": "Day-7\\Overrirding.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T13:56:35.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-7\\Day-7\\Program.cs",
-              "RelativeDocumentMoniker": "Day-7\\Program.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-7\\Day-7\\Program.cs",
-              "RelativeToolTip": "Day-7\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAA4AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T13:09:35.559Z",
+              "WhenOpened": "2024-07-29T14:54:15.367Z",
               "EditorCaption": ""
             }
           ]

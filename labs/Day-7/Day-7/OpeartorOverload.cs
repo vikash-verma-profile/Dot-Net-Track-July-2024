@@ -30,7 +30,7 @@ namespace Day_7
     }
     internal class OpeartorOverload
     {
-        public static void Main()
+        public static void Main3()
         {
             Sample s1 = new Sample(1, 2);
             Sample s2 = new Sample(2,4);
