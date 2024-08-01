@@ -8,6 +8,7 @@
         {
             Console.WriteLine("Animal is moving in base class");
         }
+        public abstract void Print();
     }
 
     public class Cat : Animal
@@ -18,6 +19,10 @@
             Console.WriteLine("Cat is moving in derived class");
 
         }
+        public override void Print()
+        {
+            Console.WriteLine("Hello I am abstract method in Cat");
+        }
     }
     public class Dog : Animal
     {
@@ -27,10 +32,14 @@
             Console.WriteLine("Dog is moving in derived class");
 
         }
+        public override void Print()
+        {
+            Console.WriteLine("Hello I am abstract method in Dog");
+        }
     }
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Animal[] animals = new Animal[] { new Cat(), new Dog() };
 
