@@ -31,7 +31,7 @@ namespace Day_9
     }
     internal class MultipleInterfaceIssue
     {
-        public static void Main()
+        public static void Main2()
         {
             IWholeSeller d1 = new Buyer();
             d1.Discount();
