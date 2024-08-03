@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D023C1D8-854C-4AE3-A447-0E1642C65B85}|Day-10\\Day-10.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-10\\day-10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D023C1D8-854C-4AE3-A447-0E1642C65B85}|Day-10\\Day-10.csproj|solutionrelative:day-10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D023C1D8-854C-4AE3-A447-0E1642C65B85}|Day-10\\Day-10.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-10\\day-10\\directoryinfoclasdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D023C1D8-854C-4AE3-A447-0E1642C65B85}|Day-10\\Day-10.csproj|solutionrelative:day-10\\directoryinfoclasdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D023C1D8-854C-4AE3-A447-0E1642C65B85}|Day-10\\Day-10.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-10\\day-10\\fileclasdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D023C1D8-854C-4AE3-A447-0E1642C65B85}|Day-10\\Day-10.csproj|solutionrelative:day-10\\fileclasdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-10\\Day-10\\Program.cs",
-              "RelativeDocumentMoniker": "Day-10\\Program.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-10\\Day-10\\Program.cs",
-              "RelativeToolTip": "Day-10\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "FileClasDemo.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-10\\Day-10\\FileClasDemo.cs",
+              "RelativeDocumentMoniker": "Day-10\\FileClasDemo.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-10\\Day-10\\FileClasDemo.cs",
+              "RelativeToolTip": "Day-10\\FileClasDemo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T03:42:13.243Z",
+              "WhenOpened": "2024-08-03T07:06:33.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DirectoryInfoClasDemo.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-10\\Day-10\\DirectoryInfoClasDemo.cs",
+              "RelativeDocumentMoniker": "Day-10\\DirectoryInfoClasDemo.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-10\\Day-10\\DirectoryInfoClasDemo.cs",
+              "RelativeToolTip": "Day-10\\DirectoryInfoClasDemo.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T07:06:05.609Z",
               "EditorCaption": ""
             }
           ]
