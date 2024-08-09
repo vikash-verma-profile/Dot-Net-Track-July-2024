@@ -1,0 +1,35 @@
+<EmployeeList>
+	<Employee>
+		<ID>1
+        </ID>
+		<Name>Vikash Verma</Name>
+		<Gender>Male</Gender>
+		<Salary>10000</Salary>
+	</Employee>
+	<Employee>
+		<ID>1
+        </ID>
+		<Name>Vikash Verma</Name>
+		<Gender>Male</Gender>
+		<Salary>10000</Salary>
+	</Employee>
+</EmployeeList>
+
+
+{
+	
+		"EmployeeList": [
+			{
+				"ID": "1",
+				"Name": "Vikash Verma",
+				"Gender": "Male",
+				"Salary": "10000"
+			},
+			{
+				"ID": "1",
+				"Name": "Vikash Verma",
+				"Gender": "Male",
+				"Salary": "10000"
+			}
+		]
+}

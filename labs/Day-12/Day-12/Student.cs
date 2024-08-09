@@ -19,7 +19,7 @@ namespace Day_12
     }
     internal class Student
     {
-        public static void Main()
+        public static void Main2()
         {
            IList<StudentDemo> students = new List<StudentDemo>()
            {

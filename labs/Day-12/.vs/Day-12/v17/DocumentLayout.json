@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-12\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC939BCE-6D1C-41FE-A27C-6CDD8AD57F03}|Day-12\\Day-12.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-12\\day-12\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC939BCE-6D1C-41FE-A27C-6CDD8AD57F03}|Day-12\\Day-12.csproj|solutionrelative:day-12\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BC939BCE-6D1C-41FE-A27C-6CDD8AD57F03}|Day-12\\Day-12.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-12\\day-12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC939BCE-6D1C-41FE-A27C-6CDD8AD57F03}|Day-12\\Day-12.csproj|solutionrelative:day-12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC939BCE-6D1C-41FE-A27C-6CDD8AD57F03}|Day-12\\Day-12.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-12\\day-12\\xmlwiterdemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC939BCE-6D1C-41FE-A27C-6CDD8AD57F03}|Day-12\\Day-12.csproj|solutionrelative:day-12\\xmlwiterdemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-12\\Day-12\\Student.cs",
-              "RelativeDocumentMoniker": "Day-12\\Student.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-12\\Day-12\\Student.cs",
-              "RelativeToolTip": "Day-12\\Student.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAABsAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T14:27:23.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-12\\Day-12\\Program.cs",
               "RelativeDocumentMoniker": "Day-12\\Program.cs",
               "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-12\\Day-12\\Program.cs",
               "RelativeToolTip": "Day-12\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T13:13:24.066Z",
+              "WhenOpened": "2024-08-09T14:53:55.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "XmlWiterDemp.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-12\\Day-12\\XmlWiterDemp.cs",
+              "RelativeDocumentMoniker": "Day-12\\XmlWiterDemp.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-12\\Day-12\\XmlWiterDemp.cs",
+              "RelativeToolTip": "Day-12\\XmlWiterDemp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T14:52:33.447Z",
               "EditorCaption": ""
             }
           ]
