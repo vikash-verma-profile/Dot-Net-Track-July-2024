@@ -24,18 +24,46 @@
                 new Employee(){Id=109,Name="Rocky",Gender="Male",Salary=150201},
             };
 
+            //Group BY
+            //var res = employeeList.GroupBy(x => x.Gender).ToList();
 
-            var res = employeeList.GroupBy(x => x.Gender).ToList();
+            //foreach (var item in res)
+            //{
+            //    Console.WriteLine(item.Key+"\n");
+            //    foreach (Employee e in item)
+            //    {
+            //        Console.WriteLine(e.Name);
+            //    }
+            //    Console.WriteLine("=============================");
+            //}
+            //var res=employeeList.OrderBy(x => x.Id).ToList();
+            //foreach (var item in res)
+            //{
+            //    Console.WriteLine(item.Id+" | "+item.Name);
+            //}
+            //Console.WriteLine("============DESC=================");
+            //res = employeeList.OrderByDescending(x=>x.Id).ToList();
+            //foreach (var item in res)
+            //{
+            //    Console.WriteLine(item.Id + " | " + item.Name);
+            //}
 
-            foreach (var item in res)
-            {
-                Console.WriteLine(item.Key+"\n");
-                foreach (Employee e in item)
-                {
-                    Console.WriteLine(e.Name);
-                }
-                Console.WriteLine("=============================");
-            }
+            // ToLookUp
+
+            //var res = employeeList.ToLookup(x => x.Gender);
+
+            //foreach (var item in res)
+            //{
+            //    Console.WriteLine(item.Key + "\n");
+            //    foreach (Employee e in item)
+            //    {
+            //        Console.WriteLine(e.Name);
+            //    }
+            //    Console.WriteLine("=============================");
+            //}
+
+            var res = employeeList.Average(x => x.Salary);
+            Console.WriteLine(res);
         }
     }
 }
