@@ -10,7 +10,7 @@ namespace Day_13
 {
     internal class XSLTDemo
     {
-        public static void Main()
+        public static void Main5()
         {
             XslTransform xslt=new XslTransform();
             xslt.Load("C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-13\\Day-13\\XSLT\\Sample.xsl");
