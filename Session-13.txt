@@ -7,3 +7,12 @@ XmlTExtWriter
 
 
 C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-13\\Day-13\\xmlfiles
+
+
+RemoveAll
+RemoveChild
+XmlNode root=xmldoc.DocumentElement;
+root.RemoveAll();
+
+XmlElement rootNode=xmlDOc.DocumentELement;
+rootNode.ReplaceChild(<fragnment>,rooNode.LastChild)

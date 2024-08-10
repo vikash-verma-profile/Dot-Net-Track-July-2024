@@ -9,7 +9,7 @@ namespace Day_13
 {
     internal class XmlDOcumenyLoad
     {
-        public static void Main()
+        public static void Main4()
         {
             XmlDocument xmlDoc=new XmlDocument();
             string filename = "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-13\\Day-13\\xmlfiles\\books.xml";
