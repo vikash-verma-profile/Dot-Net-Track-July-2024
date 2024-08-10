@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CsvHelper;
 
 namespace Day_13
 {
@@ -48,18 +50,27 @@ namespace Day_13
     {
         public static void Main()
         {
-            
-            var directory=new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent;
-            var filePath = directory+"\\csvfiles\\books.csv";
 
-            var csvData = CsvParser.ParseCsv(filePath);
-            foreach (var row in csvData)
+            var directory = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent;
+            var filePath = directory + "\\csvfiles\\books.csv";
+
+            //var csvData = CsvParser.ParseCsv(filePath);
+            //foreach (var row in csvData)
+            //{
+            //    foreach (var field in row)
+            //    {
+            //        Console.Write(field+" | ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            using var reader = new StreamReader(filePath);
+            using var csv = new CsvReader(reader,new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture));
+
+            var records = csv.GetRecords<dynamic>().ToList();
+            foreach (var item in records)
             {
-                foreach (var field in row)
-                {
-                    Console.Write(field+" | ");
-                }
-                Console.WriteLine();
+                Console.WriteLine(item.ISBN+ " | "+item.BookName+" | "+item.Author);
             }
         }
     }

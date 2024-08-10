@@ -13,3 +13,6 @@ C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\Day-13\Day-13\obj\De
 C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\Day-13\Day-13\obj\Debug\net8.0\Day-13.pdb
 C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\Day-13\Day-13\obj\Debug\net8.0\Day-13.genruntimeconfig.cache
 C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\Day-13\Day-13\obj\Debug\net8.0\ref\Day-13.dll
+C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\Day-13\Day-13\bin\Debug\net8.0\CsvHelper.dll
+C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\Day-13\Day-13\obj\Debug\net8.0\Day-13.csproj.AssemblyReference.cache
+C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\Day-13\Day-13\obj\Debug\net8.0\Day-13.csproj.Up2Date

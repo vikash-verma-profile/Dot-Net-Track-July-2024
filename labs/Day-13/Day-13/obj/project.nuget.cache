@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nXi/tERoClM=",
+  "dgSpecHash": "SlQudpzS/Ek=",
   "success": true,
   "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-13\\Day-13\\Day-13.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
