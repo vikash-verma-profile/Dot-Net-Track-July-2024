@@ -12,7 +12,7 @@ namespace Day_13
     }
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             List<Employee> employeeList = new List<Employee>()
             { new Employee(){Id=101,Name="Anil",Gender="Male",Salary=100000},
