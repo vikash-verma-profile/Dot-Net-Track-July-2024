@@ -13,7 +13,7 @@ namespace Day_14
     }
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             var directory = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent;
             var filePath = directory + "\\csvfiles\\books.csv";
@@ -23,9 +23,12 @@ namespace Day_14
                 new Person{FirstName="Vikash",LastName="Verma",Age=40},
                 new Person{FirstName="Satish",LastName="Sharma",Age=70}
             };
-
+            var csvconfig = new CsvConfiguration(CultureInfo.InvariantCulture)
+            {
+                HasHeaderRecord=false
+            };
             using var writer = new StreamWriter(filePath);
-            using var csv = new CsvWriter(writer, new CsvConfiguration(CultureInfo.InvariantCulture));
+            using var csv = new CsvWriter(writer, csvconfig);
             {
                 csv.WriteRecords(peopleList);
             }

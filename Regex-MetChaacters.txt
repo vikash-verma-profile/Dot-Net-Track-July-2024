@@ -1,9 +1,0 @@
-[]-square bracket
-^-caret
-$-doller
-*-star
-+=>plus
-?
-{}
-()
-| ==> alternation

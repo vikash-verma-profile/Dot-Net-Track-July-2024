@@ -1,9 +1,0 @@
-FileStream==> it is used to read from and write to any location within file
-BinaryReader==> it is used to read primitive data typpes 
-BinaryWriter==>
-SteamReader
-StreamWriter
-StringReader
-StringWriter
-DirectoryInfo
-FileInfo

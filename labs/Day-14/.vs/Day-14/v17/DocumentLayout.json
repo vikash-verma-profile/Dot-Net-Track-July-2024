@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-14\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{82E251BE-8381-48DB-B0E9-84890F116B90}|Day-14\\Day-14.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-14\\day-14\\exceldemowithc#.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82E251BE-8381-48DB-B0E9-84890F116B90}|Day-14\\Day-14.csproj|solutionrelative:day-14\\exceldemowithc#.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{82E251BE-8381-48DB-B0E9-84890F116B90}|Day-14\\Day-14.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-14\\day-14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82E251BE-8381-48DB-B0E9-84890F116B90}|Day-14\\Day-14.csproj|solutionrelative:day-14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ExcelDemowithc#.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-14\\Day-14\\ExcelDemowithc#.cs",
+              "RelativeDocumentMoniker": "Day-14\\ExcelDemowithc#.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-14\\Day-14\\ExcelDemowithc#.cs",
+              "RelativeToolTip": "Day-14\\ExcelDemowithc#.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAB0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T13:37:50.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-14\\Day-14\\Program.cs",
               "RelativeDocumentMoniker": "Day-14\\Program.cs",
               "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-14\\Day-14\\Program.cs",
               "RelativeToolTip": "Day-14\\Program.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAuwB0AAAAtAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABIAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T13:07:17.824Z",
               "EditorCaption": ""

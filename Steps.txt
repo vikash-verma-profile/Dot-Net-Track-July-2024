@@ -1,4 +1,0 @@
-1.Create a class library project
-2.write a method in the same
-3.Add that project as refernece by clicking on depencency .
-4. Call the refernced project member class method by creating an object of the same.
