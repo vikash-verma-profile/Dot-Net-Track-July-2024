@@ -9,7 +9,7 @@ namespace Day_14
 {
     internal class ExcelDemowithc_
     {
-        public static void Main()
+        public static void Main2()
         {
             var directory = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent;
             var filePath = directory + "\\excelfiles\\Book1.xlsx";
@@ -22,7 +22,7 @@ namespace Day_14
                 var colCount = workSheet.Dimension.Columns;
                 for (int row = 1; row <= rowCount; row++)
                 {
-                    for (int col = 1; col <= rowCount; col++)
+                    for (int col = 1; col <= colCount; col++)
                     {
                         var cellValue = workSheet.Cells[row, col].Text;
                         Console.WriteLine($"{cellValue}");
