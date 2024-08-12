@@ -9,7 +9,7 @@ namespace Day_14
 {
     internal class ExcelDemoRead
     {
-        public static void Main()
+        public static void Main3()
         {
             var directory = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent;
             var filePath = directory + "\\excelfiles\\Book1.xlsx";
