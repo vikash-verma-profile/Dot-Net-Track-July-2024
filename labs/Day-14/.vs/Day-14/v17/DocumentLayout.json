@@ -1,53 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-14\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{82E251BE-8381-48DB-B0E9-84890F116B90}|Day-14\\Day-14.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-14\\day-14\\writetoexcelepplus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82E251BE-8381-48DB-B0E9-84890F116B90}|Day-14\\Day-14.csproj|solutionrelative:day-14\\writetoexcelepplus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82E251BE-8381-48DB-B0E9-84890F116B90}|Day-14\\Day-14.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-14\\day-14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82E251BE-8381-48DB-B0E9-84890F116B90}|Day-14\\Day-14.csproj|solutionrelative:day-14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-14\\Day-14\\Program.cs",
-              "RelativeDocumentMoniker": "Day-14\\Program.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-14\\Day-14\\Program.cs",
-              "RelativeToolTip": "Day-14\\Program.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABgAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T14:22:02.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "writetoexcelEpPlus.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-14\\Day-14\\writetoexcelEpPlus.cs",
-              "RelativeDocumentMoniker": "Day-14\\writetoexcelEpPlus.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-14\\Day-14\\writetoexcelEpPlus.cs",
-              "RelativeToolTip": "Day-14\\writetoexcelEpPlus.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAACAAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T14:20:51.85Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
