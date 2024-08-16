@@ -27,7 +27,7 @@ namespace Day_15
     }
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             var employee = new Employee()
             {
