@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-15\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC4F925-B174-4608-A00C-40CB481B0CF0}|Day-15\\Day-15.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-15\\day-15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC4F925-B174-4608-A00C-40CB481B0CF0}|Day-15\\Day-15.csproj|solutionrelative:day-15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-15\\Day-15\\Program.cs",
+              "RelativeDocumentMoniker": "Day-15\\Program.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-15\\Day-15\\Program.cs",
+              "RelativeToolTip": "Day-15\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T13:09:06.21Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
