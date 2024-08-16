@@ -1,4 +1,4 @@
-﻿using System.Text.Json;
+﻿using Newtonsoft.Json;
 
 namespace Day_15
 {
@@ -15,12 +15,15 @@ namespace Day_15
             File.WriteAllText(fileName, jsonString);
         }
 
-        public static Employee ReadData(string fileName)
+        public static List<Employee> ReadData(string fileName)
         {
            var jsonString= File.ReadAllText(fileName);
-            var employee = JsonSerializer.Deserialize<Employee>(jsonString);
+            //var employee = JsonSerializer.Deserialize<Employee>(jsonString);
+            var employee = JsonConvert.DeserializeObject<List<Employee>>(jsonString);
             return employee;
         }
+
+
     }
     internal class Program
     {
@@ -35,12 +38,24 @@ namespace Day_15
                 Salary = 9090
             };
 
-            string jsonString=JsonSerializer.Serialize(employee);
-            string fileName = "employee.json";
+            List<Employee> employeesList=new List<Employee> { employee,new Employee {
+             EmpID = "EMP124",
+                ID = 124,
+                Gender = "Male",
+                Name = "Rahul Sharma",
+                Salary = 10000} };
+            //string jsonString=JsonSerializer.Serialize(employee);
+            string jsonString = JsonConvert.SerializeObject(employeesList);
+            string fileName = "employeelist.json";
 
             Employee.WriteData(fileName, jsonString);
             var EmployeeData= Employee.ReadData(fileName);
-            Console.WriteLine("Employee Data: "+EmployeeData.Name);
+
+            foreach (var item in EmployeeData)
+            {
+                Console.WriteLine("Employee Data: " + item.Name);
+            }
+          
 
 
             
