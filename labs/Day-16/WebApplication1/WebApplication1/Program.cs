@@ -1,4 +1,6 @@
 
+using Microsoft.AspNetCore.Mvc.Versioning;
+
 namespace WebApplication1
 {
     public class Program
@@ -19,6 +21,7 @@ namespace WebApplication1
                 x.DefaultApiVersion = new Microsoft.AspNetCore.Mvc.ApiVersion(1,0);
                 x.AssumeDefaultVersionWhenUnspecified = true;
                 x.ReportApiVersions=true;
+                x.ApiVersionReader = new UrlSegmentApiVersionReader();
             });
             var app = builder.Build();
 
