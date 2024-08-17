@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.OleDb;
 using System.Linq;
 using System.Text;
@@ -7,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Day_15
 {
-    internal class OLEDBConnectionDEMO
+    internal class OleDBSChemaDemo
     {
-        static void Main1(string[] args)
+        public static void Main1()
         {
             string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Book1.xlsx;Extended Properties=\"Excel 12.0 Xml;HDR=Yes;IMEX=1\";";
 
@@ -17,18 +18,24 @@ namespace Day_15
             {
                 connection.Open();
                 string query = "SELECT * FROM [Sheet1$]";
-                using (OleDbCommand command=new OleDbCommand(query, connection))
+                using (OleDbDataAdapter adapter = new OleDbDataAdapter(query, connection))
                 {
-                    using (OleDbDataReader reader=command.ExecuteReader())
+
+
+                    DataTable dt = new DataTable();
+                    adapter.Fill(dt);
+                    if (dt != null)
                     {
-                        while (reader.Read())
+                        foreach (DataColumn col in dt.Columns)
                         {
-                            Console.WriteLine(reader[0].ToString()+" | "+ reader[1].ToString());
+                            string colName = col.ColumnName;
+                            Console.WriteLine(colName + "\t");
                         }
                     }
+
+
                 }
             }
-        
         }
     }
 }

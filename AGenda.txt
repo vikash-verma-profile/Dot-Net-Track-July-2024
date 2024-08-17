@@ -1,2 +1,19 @@
-connect using Oledb connection
-work with json
+Introduction to RestAPI
+•	Concepts and examples
+Building and Consuming RestAPI in C#
+•	Practical exercises
+Introduction to SOAP
+•	Concepts and usage
+Working with ServiceNow APIs
+•	Practical examples
+Working with Box APIs
+•	Practical exercises
+Hands-on Practice with APIs
+•	Projects and real-world examples
+Review and Q&A
+•	Recap and clarification
+Hands-on Practice Continued
+•	More exercises and projects
+
+
+
