@@ -25,5 +25,20 @@ namespace WebApplication1.Controllers
             employeeList.Add(employee);
             return Ok("Record added successfully");
         }
+        [HttpPut]
+        public IActionResult PutEmployee(Employee employee)
+        {
+            var employeeData=employeeList.Where(x=>x.Id==employee.Id).FirstOrDefault();
+            employeeList.Remove(employeeData);
+            employeeList.Add(employee);
+            return Ok("Record updated successfully");
+        }
+        [HttpDelete]
+        public IActionResult DeleteEmployee(int Id)
+        {
+            var employeeData = employeeList.Where(x => x.Id == Id).FirstOrDefault();
+            employeeList.Remove(employeeData);
+            return Ok("Record deleted successfully");
+        }
     }
 }
