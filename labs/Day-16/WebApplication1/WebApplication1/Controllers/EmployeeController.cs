@@ -8,9 +8,22 @@ namespace WebApplication1.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
-        public Employee GetEmployee()
+        public static List<Employee> employeeList = new List<Employee>();
+        [HttpGet]
+        public IEnumerable<Employee> GetEmployee()
         {
-            return new Employee { Id=123,Name="Vikash Verma",Gender="Male",Salary=1000};
+            return employeeList;
+        }
+        //[HttpGet]
+        //public IEnumerable<Employee> GetEmployee()
+        //{
+        //    return employeeList;
+        //}
+        [HttpPost]
+        public IActionResult PostEmployee(Employee employee)
+        {
+            employeeList.Add(employee);
+            return Ok("Record added successfully");
         }
     }
 }
