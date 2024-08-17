@@ -4,21 +4,22 @@ using WebApplication1.ViewModel;
 
 namespace WebApplication1.Controllers
 {
-    [Route("api/[controller]")]
+    [ApiVersion("1.0")]
+    [Route("api/{v:apiVersion}/[controller]")]
     [ApiController]
     public class EmployeeController : ControllerBase
     {
         public static List<Employee> employeeList = new List<Employee>();
-        [HttpGet]
+        [HttpGet("get-employees")]
         public IEnumerable<Employee> GetEmployee()
         {
             return employeeList;
         }
-        //[HttpGet]
-        //public IEnumerable<Employee> GetEmployee()
-        //{
-        //    return employeeList;
-        //}
+        [HttpGet("get-employee")]
+        public Employee GetEmployee(int Id)
+        {
+            return employeeList.Where(x=>x.Id== Id).FirstOrDefault();
+        }
         [HttpPost]
         public IActionResult PostEmployee(Employee employee)
         {
