@@ -7,13 +7,13 @@ namespace SOAPSample.ServiceContracts
     public interface IAuthorService
     {
         [OperationContract]
-        void MySoapMethod(XElement xml);
+        int MySoapMethod(int num1,int num2);
     }
     public class AuthorService : IAuthorService
     {
-        public void MySoapMethod(XElement xml)
+        public int MySoapMethod(int num1,int num2)
         {
-            Console.WriteLine(xml.ToString());
+            return (num1 + num2);
         }
     }
 }

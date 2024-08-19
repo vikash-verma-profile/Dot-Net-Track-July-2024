@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-17\\SOAPSample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E9D0775-F08C-4FE6-987B-C313F7765CE0}|SOAPSample\\SOAPSample.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-17\\soapsample\\soapsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9D0775-F08C-4FE6-987B-C313F7765CE0}|SOAPSample\\SOAPSample.csproj|solutionrelative:soapsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3E9D0775-F08C-4FE6-987B-C313F7765CE0}|SOAPSample\\SOAPSample.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-17\\soapsample\\soapsample\\servicecontracts\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E9D0775-F08C-4FE6-987B-C313F7765CE0}|SOAPSample\\SOAPSample.csproj|solutionrelative:soapsample\\servicecontracts\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9D0775-F08C-4FE6-987B-C313F7765CE0}|SOAPSample\\SOAPSample.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-17\\soapsample\\soapsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9D0775-F08C-4FE6-987B-C313F7765CE0}|SOAPSample\\SOAPSample.csproj|solutionrelative:soapsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-17\\SOAPSample\\SOAPSample\\Program.cs",
               "RelativeDocumentMoniker": "SOAPSample\\Program.cs",
               "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-17\\SOAPSample\\SOAPSample\\Program.cs",
               "RelativeToolTip": "SOAPSample\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowCEAAAAyAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowCEAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T13:39:26.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AuthorService.cs",
               "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-17\\SOAPSample\\SOAPSample\\ServiceContracts\\AuthorService.cs",
               "RelativeDocumentMoniker": "SOAPSample\\ServiceContracts\\AuthorService.cs",
               "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-17\\SOAPSample\\SOAPSample\\ServiceContracts\\AuthorService.cs",
               "RelativeToolTip": "SOAPSample\\ServiceContracts\\AuthorService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T13:37:10.538Z",
               "EditorCaption": ""
