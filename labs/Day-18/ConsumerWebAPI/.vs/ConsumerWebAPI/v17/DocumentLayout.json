@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{FB3D14D2-0E39-4504-89D9-F48441ABBF2F}|ConsumerWebAPI\\ConsumerWebAPI.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-18\\consumerwebapi\\consumerwebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB3D14D2-0E39-4504-89D9-F48441ABBF2F}|ConsumerWebAPI\\ConsumerWebAPI.csproj|solutionrelative:consumerwebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB3D14D2-0E39-4504-89D9-F48441ABBF2F}|ConsumerWebAPI\\ConsumerWebAPI.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-18\\consumerwebapi\\consumerwebapi\\connected services\\servicereference1\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB3D14D2-0E39-4504-89D9-F48441ABBF2F}|ConsumerWebAPI\\ConsumerWebAPI.csproj|solutionrelative:consumerwebapi\\connected services\\servicereference1\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reference.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-18\\ConsumerWebAPI\\ConsumerWebAPI\\Connected Services\\ServiceReference1\\Reference.cs",
+              "RelativeDocumentMoniker": "ConsumerWebAPI\\Connected Services\\ServiceReference1\\Reference.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-18\\ConsumerWebAPI\\ConsumerWebAPI\\Connected Services\\ServiceReference1\\Reference.cs",
+              "RelativeToolTip": "ConsumerWebAPI\\Connected Services\\ServiceReference1\\Reference.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:47:10.321Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "ConsumerWebAPI\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-18\\ConsumerWebAPI\\ConsumerWebAPI\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "ConsumerWebAPI\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAAB8AAAAsAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T13:25:13.484Z",
               "EditorCaption": ""

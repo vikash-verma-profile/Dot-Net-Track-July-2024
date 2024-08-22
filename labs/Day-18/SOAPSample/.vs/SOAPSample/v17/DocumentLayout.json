@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{3E9D0775-F08C-4FE6-987B-C313F7765CE0}|SOAPSample\\SOAPSample.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-18\\soapsample\\soapsample\\servicecontracts\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E9D0775-F08C-4FE6-987B-C313F7765CE0}|SOAPSample\\SOAPSample.csproj|solutionrelative:soapsample\\servicecontracts\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9D0775-F08C-4FE6-987B-C313F7765CE0}|SOAPSample\\SOAPSample.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-18\\soapsample\\soapsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9D0775-F08C-4FE6-987B-C313F7765CE0}|SOAPSample\\SOAPSample.csproj|solutionrelative:soapsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-18\\SOAPSample\\SOAPSample\\Program.cs",
+              "RelativeDocumentMoniker": "SOAPSample\\Program.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-18\\SOAPSample\\SOAPSample\\Program.cs",
+              "RelativeToolTip": "SOAPSample\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAACEAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:45:23.851Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "SOAPSample\\ServiceContracts\\AuthorService.cs",
               "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-18\\SOAPSample\\SOAPSample\\ServiceContracts\\AuthorService.cs",
               "RelativeToolTip": "SOAPSample\\ServiceContracts\\AuthorService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAwwA4AAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T13:31:06.139Z",
               "EditorCaption": ""

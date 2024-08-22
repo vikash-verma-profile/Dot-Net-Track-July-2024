@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "m+i3USAVrQD2mDU6kBEtI0cpSLkF5MwqPbX0XMChAeM=",
+  "Source": "ServiceNowDemo",
+  "BasePath": "_content/ServiceNowDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
