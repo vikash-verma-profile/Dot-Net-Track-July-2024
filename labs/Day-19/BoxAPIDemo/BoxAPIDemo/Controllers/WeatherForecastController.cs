@@ -1,5 +1,7 @@
+using Box.V2;
 using Box.V2.Config;
 using Box.V2.JWTAuth;
+using Box.V2.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq.Expressions;
 
@@ -22,19 +24,37 @@ namespace BoxAPIDemo.Controllers
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
-        public async Task<string> Get()
+        public async Task<List<BoxItem>> Get()
         {
-            string clientId = "";
-            string clientSecret = "";
+            //try
+            //{
+                string clientId = "uzc2qa40kji5fz7wykcto14f0e3tanv9";
+                string clientSecret = "woQei6eLHnDnuBOxJf6ayStd064mOKCC";
+                string developerToken = "DnS3BR1rYDd2VqGpT11QKsxha6jNHBIS";
 
-            var boxConfig = new BoxConfig(clientId, clientSecret,new Uri(""));
-            var boxJWTAuth = new BoxJWTAuth(boxConfig);
+                var boxConfig = new BoxConfig(clientId, clientSecret, new Uri("http://localhost"));
+                var boxJWTAuth = new BoxJWTAuth(boxConfig);
 
-            var boxClient = boxJWTAuth.AdminClient("");
-            var user= await boxClient.UsersManager.GetCurrentUserInformationAsync();
+                var boxClient = boxJWTAuth.AdminClient(developerToken);
+               
+
+                var user = await boxClient.UsersManager.GetCurrentUserInformationAsync();
+
+                var items = await boxClient.FoldersManager.GetFolderItemsAsync("0", 100);
+
+
+                //foreach (var item in items.Entries)
+                //{
+
+                //}
+                //return user.Name;
+                return items.Entries;
+            //}
+            //catch (Exception ex)
+            //{
+            //    return new List<dynamic>(); ;
+            //}
           
-
-            return "success";
         }
     }
 }
