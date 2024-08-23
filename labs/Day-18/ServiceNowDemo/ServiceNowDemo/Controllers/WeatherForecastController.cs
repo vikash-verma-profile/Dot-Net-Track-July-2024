@@ -24,7 +24,7 @@ namespace ServiceNowDemo.Controllers
 
         public class Incident
         {
-            public string ShortDescription { get; set; }
+            public string short_description { get; set; }
         }
         [HttpGet(Name = "GetWeatherForecast")]
         public async Task<string> Get()
@@ -45,7 +45,7 @@ namespace ServiceNowDemo.Controllers
                 client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", authToken);
 
                 var content = new StringContent(JsonConvert.SerializeObject
-                    (new Incident { ShortDescription="Sample VIkash Incident"}),Encoding.UTF8,"application/json");
+                    (new Incident { short_description="Sample VIkash Incident"}),Encoding.UTF8,"application/json");
                 var response = await client.PostAsync(url,content);
                 var jsonString = await response.Content.ReadAsStringAsync();
                 Result = jsonString;

@@ -1,0 +1,6 @@
+@BoxAPIDemo_HostAddress = http://localhost:5285
+
+GET {{BoxAPIDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
