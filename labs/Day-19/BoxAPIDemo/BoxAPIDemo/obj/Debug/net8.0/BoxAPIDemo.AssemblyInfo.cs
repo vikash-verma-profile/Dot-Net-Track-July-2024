@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoxAPIDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7f9f3b130b3b9def8a0543ef154993cd85bf693")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dbb12205d4b004acd775a08c4f1a03d5802aa97")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoxAPIDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoxAPIDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
