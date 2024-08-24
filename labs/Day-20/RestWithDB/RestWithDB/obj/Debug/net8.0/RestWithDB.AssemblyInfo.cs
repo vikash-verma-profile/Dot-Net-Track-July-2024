@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RestWithDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f6f93bce1230b4566af7d57169cf65efe50148b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebcc96452f68f38ba3d3a32f9695a90630b722ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("RestWithDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RestWithDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

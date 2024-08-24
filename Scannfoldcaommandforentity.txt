@@ -1,0 +1,1 @@
+Scaffold-DbContext "Data Source=DESKTOP-HVUT504;Initial Catalog=EmployeeDB;Integrated Security=True;Trust Server Certificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
