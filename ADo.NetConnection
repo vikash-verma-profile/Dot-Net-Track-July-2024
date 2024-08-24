@@ -1,0 +1,12 @@
+Connection Architecture
+
+1.Connected Architecture
+2.Disconnected Architecture
+
+2C and 3D's
+
+1.Connection class
+2.Command Class
+3.DataReader Class
+4.DataAdapter Class
+5.DataSet Class
