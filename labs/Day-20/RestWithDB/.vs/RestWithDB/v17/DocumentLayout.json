@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-20\\RestWithDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8651F4C9-6E14-4AC1-9C56-C7679E0BEA4D}|RestWithDB\\RestWithDB.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-20\\restwithdb\\restwithdb\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8651F4C9-6E14-4AC1-9C56-C7679E0BEA4D}|RestWithDB\\RestWithDB.csproj|solutionrelative:restwithdb\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8651F4C9-6E14-4AC1-9C56-C7679E0BEA4D}|RestWithDB\\RestWithDB.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-20\\restwithdb\\restwithdb\\dbconnections\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8651F4C9-6E14-4AC1-9C56-C7679E0BEA4D}|RestWithDB\\RestWithDB.csproj|solutionrelative:restwithdb\\dbconnections\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-20\\RestWithDB\\RestWithDB\\DBConnections\\EmployeeDBContext.cs",
+              "RelativeDocumentMoniker": "RestWithDB\\DBConnections\\EmployeeDBContext.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-20\\RestWithDB\\RestWithDB\\DBConnections\\EmployeeDBContext.cs",
+              "RelativeToolTip": "RestWithDB\\DBConnections\\EmployeeDBContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T06:05:12.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-20\\RestWithDB\\RestWithDB\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "RestWithDB\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-20\\RestWithDB\\RestWithDB\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "RestWithDB\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T06:00:56.705Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
