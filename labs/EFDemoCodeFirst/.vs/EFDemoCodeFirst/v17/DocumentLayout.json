@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\EFDemoCodeFirst\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1EB8113-1865-400A-9257-4C356E373E54}|EFDemoCodeFirst\\EFDemoCodeFirst.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\efdemocodefirst\\efdemocodefirst\\models\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1EB8113-1865-400A-9257-4C356E373E54}|EFDemoCodeFirst\\EFDemoCodeFirst.csproj|solutionrelative:efdemocodefirst\\models\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1EB8113-1865-400A-9257-4C356E373E54}|EFDemoCodeFirst\\EFDemoCodeFirst.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\efdemocodefirst\\efdemocodefirst\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB8113-1865-400A-9257-4C356E373E54}|EFDemoCodeFirst\\EFDemoCodeFirst.csproj|solutionrelative:efdemocodefirst\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1EB8113-1865-400A-9257-4C356E373E54}|EFDemoCodeFirst\\EFDemoCodeFirst.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\efdemocodefirst\\efdemocodefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1EB8113-1865-400A-9257-4C356E373E54}|EFDemoCodeFirst\\EFDemoCodeFirst.csproj|solutionrelative:efdemocodefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1EB8113-1865-400A-9257-4C356E373E54}|EFDemoCodeFirst\\EFDemoCodeFirst.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\efdemocodefirst\\efdemocodefirst\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1EB8113-1865-400A-9257-4C356E373E54}|EFDemoCodeFirst\\EFDemoCodeFirst.csproj|solutionrelative:efdemocodefirst\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1EB8113-1865-400A-9257-4C356E373E54}|EFDemoCodeFirst\\EFDemoCodeFirst.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\efdemocodefirst\\efdemocodefirst\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1EB8113-1865-400A-9257-4C356E373E54}|EFDemoCodeFirst\\EFDemoCodeFirst.csproj|solutionrelative:efdemocodefirst\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductContext.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\EFDemoCodeFirst\\EFDemoCodeFirst\\Models\\ProductContext.cs",
-              "RelativeDocumentMoniker": "EFDemoCodeFirst\\Models\\ProductContext.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\EFDemoCodeFirst\\EFDemoCodeFirst\\Models\\ProductContext.cs",
-              "RelativeToolTip": "EFDemoCodeFirst\\Models\\ProductContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\EFDemoCodeFirst\\EFDemoCodeFirst\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "EFDemoCodeFirst\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\EFDemoCodeFirst\\EFDemoCodeFirst\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "EFDemoCodeFirst\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:43:59.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\EFDemoCodeFirst\\EFDemoCodeFirst\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "EFDemoCodeFirst\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\EFDemoCodeFirst\\EFDemoCodeFirst\\Models\\Product.cs",
-              "RelativeToolTip": "EFDemoCodeFirst\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:43:19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\EFDemoCodeFirst\\EFDemoCodeFirst\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "EFDemoCodeFirst\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\EFDemoCodeFirst\\EFDemoCodeFirst\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "EFDemoCodeFirst\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:20:19.42Z",
+              "WhenOpened": "2024-08-26T14:34:07.968Z",
               "EditorCaption": ""
             },
             {
@@ -75,7 +41,7 @@
               "RelativeDocumentMoniker": "EFDemoCodeFirst\\Program.cs",
               "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\EFDemoCodeFirst\\EFDemoCodeFirst\\Program.cs",
               "RelativeToolTip": "EFDemoCodeFirst\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA9wBEAAACAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAowBEAAACAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T13:19:53.181Z",
               "EditorCaption": ""
