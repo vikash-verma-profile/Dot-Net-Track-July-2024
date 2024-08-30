@@ -5,7 +5,7 @@ namespace SeleniumTest
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl("https://www.amazon.in/");

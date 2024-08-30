@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-21\\SeleniumTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-21\\SeleniumTest\\SeleniumTest\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SeleniumTest\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B769E752-B974-4721-970F-E3A5A29DD532}|SeleniumTest\\SeleniumTest.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-21\\seleniumtest\\seleniumtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B769E752-B974-4721-970F-E3A5A29DD532}|SeleniumTest\\SeleniumTest.csproj|solutionrelative:seleniumtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,15 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-21\\SeleniumTest\\SeleniumTest\\Class1.cs",
+              "RelativeDocumentMoniker": "SeleniumTest\\Class1.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-21\\SeleniumTest\\SeleniumTest\\Class1.cs",
+              "RelativeToolTip": "SeleniumTest\\Class1.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T14:38:57.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-21\\SeleniumTest\\SeleniumTest\\Program.cs",
               "RelativeDocumentMoniker": "SeleniumTest\\Program.cs",
               "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-21\\SeleniumTest\\SeleniumTest\\Program.cs",
               "RelativeToolTip": "SeleniumTest\\Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABUAAABOAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAoAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T13:21:51.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T13:21:51.358Z"
             }
           ]
         }
