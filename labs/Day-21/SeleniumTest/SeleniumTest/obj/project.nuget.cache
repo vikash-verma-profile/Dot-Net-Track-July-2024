@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "sDbIWAjQYt8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-21\\SeleniumTest\\SeleniumTest\\SeleniumTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\selenium.chrome.webdriver\\85.0.0\\selenium.chrome.webdriver.85.0.0.nupkg.sha512",
+    "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\selenium.webdriver\\4.24.0\\selenium.webdriver.4.24.0.nupkg.sha512"
+  ],
+  "logs": []
+}
