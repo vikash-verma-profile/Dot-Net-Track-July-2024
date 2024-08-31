@@ -19,3 +19,4 @@ C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\Day-21\SeleniumTest\
 C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\Day-21\SeleniumTest\SeleniumTest\obj\Debug\net8.0\SeleniumTest.pdb
 C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\Day-21\SeleniumTest\SeleniumTest\obj\Debug\net8.0\SeleniumTest.genruntimeconfig.cache
 C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\Day-21\SeleniumTest\SeleniumTest\obj\Debug\net8.0\ref\SeleniumTest.dll
+C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\Day-21\SeleniumTest\SeleniumTest\bin\Debug\net8.0\WebDriver.Support.dll

@@ -1,0 +1,10 @@
+Sample Websites
+
+
+https://the-internet.herokuapp.com/
+https://candymapper.com/
+https://the-internet.herokuapp.com/dynamic_loading
+https://www.saucedemo.com/
+https://www.demoblaze.com/
+https://formy-project.herokuapp.com/
+

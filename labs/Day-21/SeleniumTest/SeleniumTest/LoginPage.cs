@@ -33,5 +33,12 @@ namespace SeleniumTest
         {
             LoginButton.Click();
         }
+
+        public void Login(string username,string password)
+        {
+            EnterUserName(username);
+            EnterPassword(password);
+            ClickLoginButton();
+        }
     }
 }
