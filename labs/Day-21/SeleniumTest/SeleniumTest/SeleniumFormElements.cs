@@ -13,7 +13,7 @@ namespace SeleniumTest
 {
     internal class SeleniumFormElements
     {
-        public static void Main()
+        public static void Main3()
         {
             //IWebDriver driver = new ChromeDriver();
             //driver.Navigate().GoToUrl("https://getbootstrap.com/docs/4.0/examples/checkout/");

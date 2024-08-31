@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-21\\SeleniumTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B769E752-B974-4721-970F-E3A5A29DD532}|SeleniumTest\\SeleniumTest.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-21\\seleniumtest\\seleniumtest\\seleniumformelements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B769E752-B974-4721-970F-E3A5A29DD532}|SeleniumTest\\SeleniumTest.csproj|solutionrelative:seleniumtest\\seleniumformelements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B769E752-B974-4721-970F-E3A5A29DD532}|SeleniumTest\\SeleniumTest.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-21\\seleniumtest\\seleniumtest\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B769E752-B974-4721-970F-E3A5A29DD532}|SeleniumTest\\SeleniumTest.csproj|solutionrelative:seleniumtest\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B769E752-B974-4721-970F-E3A5A29DD532}|SeleniumTest\\SeleniumTest.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-21\\seleniumtest\\seleniumtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B769E752-B974-4721-970F-E3A5A29DD532}|SeleniumTest\\SeleniumTest.csproj|solutionrelative:seleniumtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B769E752-B974-4721-970F-E3A5A29DD532}|SeleniumTest\\SeleniumTest.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\day-21\\seleniumtest\\seleniumtest\\pomexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B769E752-B974-4721-970F-E3A5A29DD532}|SeleniumTest\\SeleniumTest.csproj|solutionrelative:seleniumtest\\pomexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-21\\SeleniumTest\\SeleniumTest\\Program.cs",
-              "RelativeDocumentMoniker": "SeleniumTest\\Program.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-21\\SeleniumTest\\SeleniumTest\\Program.cs",
-              "RelativeToolTip": "SeleniumTest\\Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABEAAABMAAAA",
+              "DocumentIndex": 0,
+              "Title": "LoginPage.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-21\\SeleniumTest\\SeleniumTest\\LoginPage.cs",
+              "RelativeDocumentMoniker": "SeleniumTest\\LoginPage.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-21\\SeleniumTest\\SeleniumTest\\LoginPage.cs",
+              "RelativeToolTip": "SeleniumTest\\LoginPage.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAACEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T03:50:44.643Z",
+              "WhenOpened": "2024-08-31T06:34:52.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SeleniumFormElements.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-21\\SeleniumTest\\SeleniumTest\\SeleniumFormElements.cs",
-              "RelativeDocumentMoniker": "SeleniumTest\\SeleniumFormElements.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-21\\SeleniumTest\\SeleniumTest\\SeleniumFormElements.cs",
-              "RelativeToolTip": "SeleniumTest\\SeleniumFormElements.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAAACwAAAAMAAAA",
+              "DocumentIndex": 1,
+              "Title": "pomexample.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-21\\SeleniumTest\\SeleniumTest\\pomexample.cs",
+              "RelativeDocumentMoniker": "SeleniumTest\\pomexample.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\Day-21\\SeleniumTest\\SeleniumTest\\pomexample.cs",
+              "RelativeToolTip": "SeleniumTest\\pomexample.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T03:42:43.215Z",
+              "WhenOpened": "2024-08-31T05:56:49.209Z",
               "EditorCaption": ""
             }
           ]
