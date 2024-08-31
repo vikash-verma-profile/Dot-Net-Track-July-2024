@@ -10,7 +10,7 @@ namespace SeleniumTest
 {
     internal class Class1
     {
-        public static void Main()
+        public static void Main2()
         {
             IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl("https://www.whatismyip.com/");
