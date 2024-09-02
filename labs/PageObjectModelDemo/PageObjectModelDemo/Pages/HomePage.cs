@@ -14,7 +14,7 @@ namespace PageObjectModelDemo.Pages
                 
         }
 
-        private By productSelector = By.CssSelector(".inventory_item");
+        private By productSelector = By.CssSelector(".inventory_item_name");
         public void OpenProduct(string productName)
         {
             var products = FindElements(productSelector);
