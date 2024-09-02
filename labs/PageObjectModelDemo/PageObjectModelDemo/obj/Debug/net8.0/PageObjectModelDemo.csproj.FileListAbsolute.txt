@@ -1,0 +1,6 @@
+C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\PageObjectModelDemo\PageObjectModelDemo\obj\Debug\net8.0\PageObjectModelDemo.csproj.AssemblyReference.cache
+C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\PageObjectModelDemo\PageObjectModelDemo\obj\Debug\net8.0\PageObjectModelDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\PageObjectModelDemo\PageObjectModelDemo\obj\Debug\net8.0\PageObjectModelDemo.AssemblyInfoInputs.cache
+C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\PageObjectModelDemo\PageObjectModelDemo\obj\Debug\net8.0\PageObjectModelDemo.AssemblyInfo.cs
+C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\PageObjectModelDemo\PageObjectModelDemo\obj\Debug\net8.0\PageObjectModelDemo.csproj.CoreCompileInputs.cache
+C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\PageObjectModelDemo\PageObjectModelDemo\obj\Debug\net8.0\PageObjectModelDemo.sourcelink.json
