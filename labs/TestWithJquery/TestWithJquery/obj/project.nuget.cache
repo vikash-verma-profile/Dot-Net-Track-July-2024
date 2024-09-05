@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "m8zXJj76dC4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\TestWithJquery\\TestWithJquery\\TestWithJquery.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\selenium.webdriver\\4.24.0\\selenium.webdriver.4.24.0.nupkg.sha512",
+    "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\selenium.webdriver.chromedriver\\128.0.6613.11900\\selenium.webdriver.chromedriver.128.0.6613.11900.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,7 @@
+$('#<id>')==>id
+$('.<classname>')==>class
+$('[]')==>name
+
+.val()
+.text()
+.html()
