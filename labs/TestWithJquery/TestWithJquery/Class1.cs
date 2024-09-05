@@ -36,6 +36,11 @@ namespace TestWithJquery
             js.ExecuteScript(script);
             string productTitle = (string)js.ExecuteScript("return $('#productTitle').text().trim();");
             Console.WriteLine(productTitle);
+
+            //get first review
+            js.ExecuteScript("document.querySelector('#reviewsMedley').scrollIntoView();");
+            string firstReview= (string)js.ExecuteScript("return $('.review-text-content span').first().text().trim();");
+            Console.WriteLine(firstReview);
             driver.Quit();
         }
     }

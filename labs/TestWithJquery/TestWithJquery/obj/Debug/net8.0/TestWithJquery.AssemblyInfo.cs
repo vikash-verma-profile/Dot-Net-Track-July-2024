@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestWithJquery")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61f35ea62fb0da688643bda31c4930ad4f2b5310")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a130d05d9ff24d0af78f1555fbfed9b0d142541")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestWithJquery")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestWithJquery")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
