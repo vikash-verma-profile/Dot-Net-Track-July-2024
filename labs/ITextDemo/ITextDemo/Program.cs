@@ -1,4 +1,5 @@
-﻿using iText.Kernel.Colors;
+﻿using iText.IO.Image;
+using iText.Kernel.Colors;
 using iText.Kernel.Pdf;
 using iText.Layout;
 using iText.Layout.Element;
@@ -42,9 +43,9 @@ namespace ITextDemo
                 Table table = new Table(UnitValue.CreatePercentArray(3)).UseAllAvailableWidth();// 3 columns with equal width
 
 
-                table.AddHeaderCell("ID").SetBackgroundColor(ColorConstants.YELLOW);
-                table.AddHeaderCell("Employee Name");
-                table.AddHeaderCell("Salary");
+                table.AddHeaderCell(new Cell().Add(new Paragraph("ID").SetBackgroundColor(ColorConstants.YELLOW)));
+                table.AddHeaderCell(new Cell().Add(new Paragraph("Employee Name").SetBackgroundColor(ColorConstants.YELLOW)));
+                table.AddHeaderCell(new Cell().Add(new Paragraph("Salary").SetBackgroundColor(ColorConstants.YELLOW)));
 
 
                 table.AddCell("1");
@@ -56,6 +57,11 @@ namespace ITextDemo
                 table.AddCell("2000");
 
                 document.Add(table);
+
+                Image img = new Image(ImageDataFactory.Create("sample-image.png"));
+                img.SetMaxWidth(200);
+                img.SetMaxHeight(200);
+                document.Add(img);
                 document.Close();
             }
 
