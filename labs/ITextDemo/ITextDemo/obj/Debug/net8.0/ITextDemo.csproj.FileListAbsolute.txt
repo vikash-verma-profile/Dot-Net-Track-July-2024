@@ -36,3 +36,5 @@ C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\ITextDemo\ITextDemo\
 C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\ITextDemo\ITextDemo\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\ITextDemo\ITextDemo\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\ITextDemo\ITextDemo\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\ITextDemo\ITextDemo\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\ITextDemo\ITextDemo\bin\Debug\net8.0\itext.bouncy-castle-adapter.dll

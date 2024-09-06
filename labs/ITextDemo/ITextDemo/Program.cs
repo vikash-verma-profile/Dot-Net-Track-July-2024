@@ -1,6 +1,8 @@
 ﻿using iText.Kernel.Pdf;
 using iText.Layout;
 using iText.Layout.Element;
+using System.IO;
+using System.Text;
 
 namespace ITextDemo
 {
@@ -10,25 +12,30 @@ namespace ITextDemo
         {
             string pdfPath = "sampleDemo.pdf";
 
-            using (FileStream fs = new FileStream(pdfPath,FileMode.Create,FileAccess.Write,FileShare.None))
+            using (FileStream fs = new FileStream(pdfPath, FileMode.Create, FileAccess.Write, FileShare.None))
             {
-                //initalize a pdfwriter with encription
-                WriterProperties writerprops=new WriterProperties().
-                    SetStandardEncryption("","",EncryptionConstants.ALLOW_PRINTING,EncryptionConstants.ENCRYPTION_AES_256);
+                // Initialize PdfWriter with encryption
+                WriterProperties writerProps = new WriterProperties()
+                    .SetStandardEncryption(
+                        Encoding.UTF8.GetBytes("user123"),
+                        Encoding.UTF8.GetBytes("owner123"),
+                        EncryptionConstants.ALLOW_PRINTING,
+                        EncryptionConstants.ENCRYPTION_AES_256
+                    );
 
-                //Intilize a new pdf document
-                PdfWriter writer = new PdfWriter(fs, writerprops);
+                // Initialize a new PdfDocument
+                PdfWriter writer = new PdfWriter(fs, writerProps);
                 PdfDocument pdfDocument = new PdfDocument(writer);
 
-                //Intilize a document for layout
+                // Initialize a Document for layout
                 Document document = new Document(pdfDocument);
 
-                //Add a sample paragraph
-                document.Add(new Paragraph("Hello I am a sample text written by vikash"));
+                // Add a sample paragraph
+                document.Add(new Paragraph("Hello I am a sample text written by Vikash"));
                 document.Close();
-            
             }
-            Console.WriteLine("pdf is created !!");
+
+            Console.WriteLine("PDF is created!!");
         }
     }
 }

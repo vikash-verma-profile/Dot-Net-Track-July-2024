@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "aL8K5snE0dc=",
+  "dgSpecHash": "Tpv3+QbtPQ8=",
   "success": true,
   "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\ITextDemo\\ITextDemo\\ITextDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\itext\\8.0.5\\itext.8.0.5.nupkg.sha512",
+    "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\itext.bouncy-castle-adapter\\8.0.5\\itext.bouncy-castle-adapter.8.0.5.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\itext.commons\\8.0.5\\itext.commons.8.0.5.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\itext7\\8.0.5\\itext7.8.0.5.nupkg.sha512",
+    "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\itext7.bouncy-castle-adapter\\8.0.5\\itext7.bouncy-castle-adapter.8.0.5.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\1.1.0\\microsoft.dotnet.platformabstractions.1.1.0.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
