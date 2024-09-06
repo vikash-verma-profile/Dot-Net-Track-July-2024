@@ -1,6 +1,8 @@
-﻿using iText.Kernel.Pdf;
+﻿using iText.Kernel.Colors;
+using iText.Kernel.Pdf;
 using iText.Layout;
 using iText.Layout.Element;
+using iText.Layout.Properties;
 using System.IO;
 using System.Text;
 
@@ -19,7 +21,7 @@ namespace ITextDemo
                     .SetStandardEncryption(
                         Encoding.UTF8.GetBytes("user123"),
                         Encoding.UTF8.GetBytes("owner123"),
-                        EncryptionConstants.ALLOW_PRINTING,
+                        EncryptionConstants.ALLOW_PRINTING | EncryptionConstants.ALLOW_COPY,
                         EncryptionConstants.ENCRYPTION_AES_256
                     );
 
@@ -31,7 +33,29 @@ namespace ITextDemo
                 Document document = new Document(pdfDocument);
 
                 // Add a sample paragraph
-                document.Add(new Paragraph("Hello I am a sample text written by Vikash"));
+                document.Add(new Paragraph("Encripted Document").SetFontSize(18).SetBold());
+                document.Add(new Paragraph("This is a pdf document"));
+                document.Add(new Paragraph("Content Section").SetFontSize(14).SetBold());
+                document.Add(new Paragraph("you can copy and print this document"));
+                //Adding a grid format in pdf
+
+                Table table = new Table(UnitValue.CreatePercentArray(3)).UseAllAvailableWidth();// 3 columns with equal width
+
+
+                table.AddHeaderCell("ID").SetBackgroundColor(ColorConstants.YELLOW);
+                table.AddHeaderCell("Employee Name");
+                table.AddHeaderCell("Salary");
+
+
+                table.AddCell("1");
+                table.AddCell("Vikash Verma");
+                table.AddCell("1000");
+
+                table.AddCell("2");
+                table.AddCell("Virat Kholi");
+                table.AddCell("2000");
+
+                document.Add(table);
                 document.Close();
             }
 
