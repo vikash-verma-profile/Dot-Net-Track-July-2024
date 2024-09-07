@@ -18,8 +18,9 @@ namespace DemoITextModification
         public static void Main()
         {
             string pdfPath = "invoice.pdf";
-            string invoiceNumber = ExtractInvoiceNumber(pdfPath);
-            Console.WriteLine(invoiceNumber);
+            //string invoiceNumber = ExtractInvoiceNumber(pdfPath);
+            //Console.WriteLine(invoiceNumber);
+            ExtractTableFromPDF(pdfPath);
 
         }
 
@@ -42,6 +43,36 @@ namespace DemoITextModification
             pdfDocument.Close();
             return InvoiceNumner;
 
+        }
+
+        public static void ExtractTableFromPDF(string filename)
+        {
+            PdfReader pdfReader = new PdfReader(filename);
+            PdfDocument pdfDocument = new PdfDocument(pdfReader);
+            for (int i = 1; i <= pdfDocument.GetNumberOfPages(); i++)
+            {
+                string pageText = PdfTextExtractor.GetTextFromPage(pdfDocument.GetPage(i));
+                ExtractTable(pageText);
+            }
+            pdfDocument.Close();
+
+        }
+
+        public static void ExtractTable(string pageText)
+        {
+            string tablePattern = @"Product\s*\d+\s*\d+\s*\$\d+\s*\$\d+";
+
+            MatchCollection matched = Regex.Matches(pageText, tablePattern);
+            foreach (Match item in matched)
+            {
+                string tableRow = item.Groups[0].Value;
+                string[] colums = Regex.Split(tableRow.Trim(),@"\s{2,}");
+                foreach (var column in colums)
+                {
+                    Console.Write(column + "\t");
+                }
+                Console.WriteLine();
+            }
         }
     }
 }

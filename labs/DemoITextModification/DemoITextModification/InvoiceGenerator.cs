@@ -48,6 +48,16 @@ namespace DemoITextModification
             table.AddCell(new Cell().Add(new Paragraph("2")));
             table.AddCell(new Cell().Add(new Paragraph("$20")));
             table.AddCell(new Cell().Add(new Paragraph("$40")));
+
+            table.AddCell(new Cell().Add(new Paragraph("Product 2")));
+            table.AddCell(new Cell().Add(new Paragraph("2")));
+            table.AddCell(new Cell().Add(new Paragraph("$20")));
+            table.AddCell(new Cell().Add(new Paragraph("$40")));
+
+            table.AddCell(new Cell().Add(new Paragraph("Product 3")));
+            table.AddCell(new Cell().Add(new Paragraph("2")));
+            table.AddCell(new Cell().Add(new Paragraph("$20")));
+            table.AddCell(new Cell().Add(new Paragraph("$40")));
             document.Add(table);
 
             document.Add(new Paragraph("\n Total Amount Due : $40").SetFontSize(14).SetBold().

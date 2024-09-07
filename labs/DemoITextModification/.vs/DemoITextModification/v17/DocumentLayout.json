@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E702928F-D5DD-40D7-AABB-EF0A9AC32C5C}|DemoITextModification\\DemoITextModification.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\demoitextmodification\\demoitextmodification\\getvaluefrompdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E702928F-D5DD-40D7-AABB-EF0A9AC32C5C}|DemoITextModification\\DemoITextModification.csproj|solutionrelative:demoitextmodification\\getvaluefrompdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E702928F-D5DD-40D7-AABB-EF0A9AC32C5C}|DemoITextModification\\DemoITextModification.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\demoitextmodification\\demoitextmodification\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E702928F-D5DD-40D7-AABB-EF0A9AC32C5C}|DemoITextModification\\DemoITextModification.csproj|solutionrelative:demoitextmodification\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E702928F-D5DD-40D7-AABB-EF0A9AC32C5C}|DemoITextModification\\DemoITextModification.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\demoitextmodification\\demoitextmodification\\invoicegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E702928F-D5DD-40D7-AABB-EF0A9AC32C5C}|DemoITextModification\\DemoITextModification.csproj|solutionrelative:demoitextmodification\\invoicegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,34 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\DemoITextModification\\DemoITextModification\\Program.cs",
-              "RelativeDocumentMoniker": "DemoITextModification\\Program.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\DemoITextModification\\DemoITextModification\\Program.cs",
-              "RelativeToolTip": "DemoITextModification\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T06:24:07.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InvoiceGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\DemoITextModification\\DemoITextModification\\InvoiceGenerator.cs",
-              "RelativeDocumentMoniker": "DemoITextModification\\InvoiceGenerator.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\DemoITextModification\\DemoITextModification\\InvoiceGenerator.cs",
-              "RelativeToolTip": "DemoITextModification\\InvoiceGenerator.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAAAFQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T06:24:05.258Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -58,7 +24,7 @@
               "RelativeDocumentMoniker": "DemoITextModification\\GetValuefromPDF.cs",
               "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\DemoITextModification\\DemoITextModification\\GetValuefromPDF.cs",
               "RelativeToolTip": "DemoITextModification\\GetValuefromPDF.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAACoAAAAhAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAACAAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T06:21:23.2Z",
               "EditorCaption": ""
