@@ -3,6 +3,7 @@ using iText.Kernel.Pdf;
 using iText.Kernel.Pdf.Canvas;
 using iText.Kernel.Font;
 using iText.IO.Font.Constants;
+using System.Text;
 
 namespace DemoITextModification
 {
@@ -14,7 +15,7 @@ namespace DemoITextModification
             string inputpdfPath = "sampleDemo.pdf";
             string outputpdfPath = "outputSampleDemo.pdf";
 
-            PdfReader pdfReader = new PdfReader(inputpdfPath);
+            PdfReader pdfReader = new PdfReader(inputpdfPath,new ReaderProperties().SetPassword(Encoding.UTF8.GetBytes("owner123")));
             PdfWriter pdfWriter = new PdfWriter(outputpdfPath);
             PdfDocument pdfDocument = new PdfDocument(pdfReader, pdfWriter);
 
@@ -26,7 +27,7 @@ namespace DemoITextModification
                Rectangle pageSize=page.GetPageSize();
 
                 PdfCanvas canvas=new PdfCanvas(page);
-                string text = "Sample from vikash";
+                string text = "Sample from vikash with password now";
                 float x = pageSize.GetWidth()/2;
                 float y = pageSize.GetHeight()/ 2;
 
