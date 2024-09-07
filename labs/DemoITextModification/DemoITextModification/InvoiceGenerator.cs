@@ -17,7 +17,7 @@ namespace DemoITextModification
 {
     internal class InvoiceGenerator
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             string outputPath = "invoice.pdf";
 

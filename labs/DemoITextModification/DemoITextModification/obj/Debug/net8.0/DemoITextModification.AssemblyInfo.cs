@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemoITextModification")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7433e2470e3eb2b20c4ea93bde1938fa33ee54e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f851f979de83a918a7dd80ec11324e55fa1f993")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemoITextModification")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemoITextModification")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
