@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\DemoOnWin32\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE61610E-49C6-4497-862A-AE708B33FD12}|DemoOnWin32\\DemoOnWin32.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\demoonwin32\\demoonwin32\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE61610E-49C6-4497-862A-AE708B33FD12}|DemoOnWin32\\DemoOnWin32.csproj|solutionrelative:demoonwin32\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE61610E-49C6-4497-862A-AE708B33FD12}|DemoOnWin32\\DemoOnWin32.csproj|c:\\users\\level up solutions 1\\desktop\\course-structure\\labs\\demoonwin32\\demoonwin32\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE61610E-49C6-4497-862A-AE708B33FD12}|DemoOnWin32\\DemoOnWin32.csproj|solutionrelative:demoonwin32\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\DemoOnWin32\\DemoOnWin32\\Program.cs",
-              "RelativeDocumentMoniker": "DemoOnWin32\\Program.cs",
-              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\DemoOnWin32\\DemoOnWin32\\Program.cs",
-              "RelativeToolTip": "DemoOnWin32\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABPAAAA",
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\DemoOnWin32\\DemoOnWin32\\Class1.cs",
+              "RelativeDocumentMoniker": "DemoOnWin32\\Class1.cs",
+              "ToolTip": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\DemoOnWin32\\DemoOnWin32\\Class1.cs",
+              "RelativeToolTip": "DemoOnWin32\\Class1.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABYAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T13:18:40.638Z",
+              "WhenOpened": "2024-09-09T14:05:42.648Z",
               "EditorCaption": ""
             }
           ]
