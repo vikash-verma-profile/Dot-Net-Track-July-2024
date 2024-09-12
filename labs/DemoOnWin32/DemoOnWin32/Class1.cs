@@ -11,7 +11,7 @@ namespace DemoOnWin32
 {
     internal class Class1
     {
-        public static void Main()
+        public static void Main2()
         {
             var psi = new ProcessStartInfo
             {

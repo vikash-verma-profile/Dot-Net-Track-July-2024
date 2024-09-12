@@ -1,0 +1,7 @@
+Microsoft.SharePointOnline.CSOM
+pnp.core
+pnp.core.auth
+microsoft.extensions.dependencyInjection
+
+Akash@levelupsolutions.in
+RGupta#20080
