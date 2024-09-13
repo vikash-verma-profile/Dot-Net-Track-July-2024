@@ -1,41 +1,44 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Identity.Client;
 using Microsoft.SharePoint.Client;
-using Microsoft.Win32.SafeHandles;
-using PnP.Core.Auth;
-using PnP.Core.Services;
-using System.Security;
+using System;
+using System.Threading.Tasks;
 
-namespace SharePointDemo
+class Program
 {
-    internal class Program
+    private static async Task Main1(string[] args)
     {
-        public static void ConfigurePnpServices(IServiceCollection services,string username,SecureString password)
-        {
-            services.AddPnPContextFactory(options =>
-            {
-                options.DefaultAuthenticationProvider = new UsernamePasswordAuthenticationProvider("","", username, password);
-            });
-        }
-        static async Task Main(string[] args)
-        {
-            string siteUrl = "https://levelupsolutionsin.sharepoint.com/sites/SampleWebsite";
-            string username = "Akash@levelupsolutions.in";
-            string password = "RGupta#20080";
-            System.Security.SecureString securePassword = new System.Security.SecureString();
-            foreach (var item in password)
-            {
-                securePassword.AppendChar(item);
-            }
+        // Replace these values with your Azure AD app registration details
+        var tenantId = "163d48cb-7075-46be-9b05-d4af525c267f";  // Tenant ID (Directory ID)
+        var clientId = "3c35121b-67ec-4fc6-939c-2652e793cd83";  // Application (client) ID
+        var clientSecret = "ixY8Q~UdIyu17g.ctJ~EmhrJSUKSflqesf.2naZm"; // Client secret
+        var siteUrl = "https://levelupsolutionsin.sharepoint.com/sites/SampleWebsite/"; // SharePoint Site URL
 
-            var serviceCollections = new ServiceCollection();
-            ConfigurePnpServices(serviceCollections, username, securePassword);
-            var serviceProvider = serviceCollections.BuildServiceProvider();
-            var pnpContextFactory = serviceProvider.GetRequiredService<IPnPContextFactory>();
-            using (var context = await pnpContextFactory.CreateAsync(new Uri(siteUrl)))
+        // Create the MSAL client
+        var app = ConfidentialClientApplicationBuilder.Create(clientId)
+            .WithClientSecret(clientSecret)
+            .WithAuthority(new Uri($"https://login.microsoftonline.com/{tenantId}"))
+            .Build();
+
+        // Acquire token
+        var authResult = await app.AcquireTokenForClient(new[] { "https://levelupsolutionsin.sharepoint.com/.default" })
+                                  .ExecuteAsync();
+
+        string accessToken = authResult.AccessToken;
+
+        // Connect to SharePoint
+        using (var context = new ClientContext(siteUrl))
+        {
+            context.ExecutingWebRequest += (sender, e) =>
             {
-                await context.Web.LoadAsync(p=>p.Title);
-                Console.WriteLine(context.Web.Title);
-            }
+                e.WebRequestExecutor.RequestHeaders["Authorization"] = "Bearer " + accessToken;
+            };
+
+            // Example: Load the web and print the title
+            Web web = context.Web;
+            context.Load(web);
+            await context.ExecuteQueryAsync();
+
+            Console.WriteLine($"Site Title: {web.Title}");
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fqdxHM3hGJs=",
+  "dgSpecHash": "dcE24HESAcQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\labs\\SharePointDemo\\SharePointDemo\\SharePointDemo.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\microsoft.sharepointonline.csom\\16.1.25221.12000\\microsoft.sharepointonline.csom.16.1.25221.12000.nupkg.sha512",
+    "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\pnp.core\\1.14.0\\pnp.core.1.14.0.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\pnp.core.auth\\1.14.0\\pnp.core.auth.1.14.0.nupkg.sha512",
     "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",

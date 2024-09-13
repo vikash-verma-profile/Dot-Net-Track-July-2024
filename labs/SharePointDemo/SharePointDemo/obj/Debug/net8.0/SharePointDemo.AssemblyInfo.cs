@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SharePointDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cdf0ed7cddc0f9d6be16228f6307229c8b7bbae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba45235d94d7308f5acfcd288f658352ad346a24")]
 [assembly: System.Reflection.AssemblyProductAttribute("SharePointDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SharePointDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
