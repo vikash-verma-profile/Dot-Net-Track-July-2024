@@ -14,9 +14,9 @@ namespace SharePointDemo
         static async Task Main2(string[] args)
         {
             // Set the values for your application
-            string clientId = "3c35121b-67ec-4fc6-939c-2652e793cd83";
-            string clientSecret = "ixY8Q~UdIyu17g.ctJ~EmhrJSUKSflqesf.2naZm";
-            string tenantId = "163d48cb-7075-46be-9b05-d4af525c267f";
+            string clientId = "";
+            string clientSecret = "";
+            string tenantId = "";
             string[] scopes = new string[] { "https://graph.microsoft.com/.default" };
 
             try

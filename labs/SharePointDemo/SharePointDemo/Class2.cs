@@ -12,9 +12,9 @@ namespace SharePointDemo
 {
     internal class Class2
     {
-        private static readonly string tenantId = "163d48cb-7075-46be-9b05-d4af525c267f";
-        private static readonly string clientId = "3c35121b-67ec-4fc6-939c-2652e793cd83";
-        private static readonly string clientSecret = "ixY8Q~UdIyu17g.ctJ~EmhrJSUKSflqesf.2naZm";
+        private static readonly string tenantId = "";
+        private static readonly string clientId = "";
+        private static readonly string clientSecret = "";
         private static readonly string graphApiEndpoint = "https://graph.microsoft.com/v1.0/";
         private static readonly string[] scopes = new[] { "User.Read" };
         static async Task Main(string[] args)
