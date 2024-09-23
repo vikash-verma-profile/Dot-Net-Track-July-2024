@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OutlokktoSharePointIntegration")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b1de43e2eb695d1eb8788b77d6dec23ef403a01")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88d2863e8d1de8462dd41783c5decd2028848e5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("OutlokktoSharePointIntegration")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OutlokktoSharePointIntegration")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
