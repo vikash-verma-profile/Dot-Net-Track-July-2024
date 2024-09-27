@@ -15,11 +15,12 @@ namespace OneDriveUpload
         {
             var credential = new ClientSecretCredential(tenantId, clientId, clientSecret);
             var client = new GraphServiceClient(credential);
-            var uplaodedFile=await UploadFileToDrive(client, filePath);
-            await SendEmailNotification(client, uplaodedFile, recipentEmail);
+            //var uplaodedFile = await UploadFileToDrive(client, filePath);
+            //await SendEmailNotification(client, uplaodedFile, recipentEmail);
+            await ListFilesInDrive(client, userEmail);
         }
 
-        private static async Task<DriveItem> UploadFileToDrive(GraphServiceClient client,string filePath)
+        private static async Task<DriveItem> UploadFileToDrive(GraphServiceClient client, string filePath)
         {
             var fileName = Path.GetFileName(filePath);
             using (var fileStream = new FileStream(fileName, FileMode.Open, FileAccess.Read))
@@ -28,40 +29,58 @@ namespace OneDriveUpload
                     CreateUploadSession().Request().PostAsync();
 
                 var maxChunckSize = 320 * 1024;//320KB
-                var chuckUploadProvider = new ChunkedUploadProvider(uploadSession,client,fileStream, maxChunckSize);
+                var chuckUploadProvider = new ChunkedUploadProvider(uploadSession, client, fileStream, maxChunckSize);
                 var uploadedItem = await chuckUploadProvider.UploadAsync();
                 Console.WriteLine($"File uploaded successfully ID: {uploadedItem.Id}");
                 return uploadedItem;
             }
         }
-        private static async Task SendEmailNotification(GraphServiceClient client, DriveItem uplaodedFile, string recipientEmail)
+        private static async Task SendEmailNotification(GraphServiceClient client, DriveItem uploadedFile, string recipientEmail)
         {
-            if (uplaodedFile != null)
+            if (uploadedFile != null)
             {
                 var message = new Message
                 {
-                    Subject = "File Uplaoded to OneDrive",
+                    Subject = "File Uploaded to OneDrive",
                     Body = new ItemBody
                     {
-                        ContentType=BodyType.Text,
-                        Content = "The file has been successfully uploaded to oneDrive"
+                        ContentType = BodyType.Text,
+                        Content = "The file has been successfully uploaded to OneDrive."
                     },
                     ToRecipients = new List<Recipient>
-                        {
-                             new Recipient
-                            {
-                                EmailAddress=new EmailAddress
-                                {
-                                    Address="er.vikashverma551@gmail.com"
-                                },
-                            }
-                        }
-
+            {
+                new Recipient
+                {
+                    EmailAddress = new EmailAddress
+                    {
+                        Address = recipientEmail
+                    }
+                }
+            }
                 };
-                await client.Users[userEmail].SendMail(message, null).Request().PostAsync();
-                Console.WriteLine("Email sent to the person");
 
+                try
+                {
+                    await client.Users[userEmail].SendMail(message, null).Request().PostAsync();
+                    Console.WriteLine("Email sent to the recipient successfully.");
+                }
+                catch (ServiceException ex)
+                {
+                    Console.WriteLine($"Error sending email: {ex.Message}");
+                    // Log or handle the specific error code (e.g., 550) for further action
+                }
             }
         }
+            
+        private static async Task ListFilesInDrive(GraphServiceClient client,string userEmail)
+        {
+            var driveItems = await client.Users[userEmail].Drive.Root.Children.Request().GetAsync();
+
+            foreach (var driveItem in driveItems)
+            {
+                Console.WriteLine($"- {driveItem.Name} (Id :{driveItem.Id})");
+            }
+        }
+    
     }
 }
