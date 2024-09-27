@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OneDriveUpload")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bae73bc3b0afb0420541e72648538154c55864df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3459f3c79fb95e20f533a76f5f197af646601365")]
 [assembly: System.Reflection.AssemblyProductAttribute("OneDriveUpload")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OneDriveUpload")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
