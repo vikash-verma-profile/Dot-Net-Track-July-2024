@@ -1,0 +1,2 @@
+Azure.Identity 1.12.1
+Microsoft.Graph==> 4.53.0
