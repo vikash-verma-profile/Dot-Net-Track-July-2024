@@ -21,7 +21,7 @@ namespace WriteExcelWithOneDrive
 
             var drive = await client.Users[userEmail].Drive.Request().GetAsync();
 
-            if(drive != null)
+            if (drive != null)
             {
                 var driveItems = await client.Users[userEmail].Drive.Root.Children.Request().GetAsync();
 
@@ -36,15 +36,16 @@ namespace WriteExcelWithOneDrive
                           new List<object>{"Sumesh Sharama","32","India"},
                           new List<object>{"John","32","USA"},
                     };
-                    await WriteExcelData(client,drive.Id,excelFile.Id,workSheetName,rangeAddress,dataToWrite);
+                    // await WriteExcelData(client, drive.Id, excelFile.Id, workSheetName, rangeAddress, dataToWrite);
+                    await ReadExcelData(client, drive.Id, excelFile.Id, workSheetName, rangeAddress);
                 }
             }
         }
 
-        public static async Task WriteExcelData(GraphServiceClient client,string driveID,string ID,string worksheetName,string rangeAddress, List<List<Object>> dataToWrite)
+        public static async Task WriteExcelData(GraphServiceClient client, string driveID, string ID, string worksheetName, string rangeAddress, List<List<Object>> dataToWrite)
         {
-            string jsonString=JsonSerializer.Serialize(dataToWrite);
-            JsonDocument jsonDoc=JsonDocument.Parse(jsonString);
+            string jsonString = JsonSerializer.Serialize(dataToWrite);
+            JsonDocument jsonDoc = JsonDocument.Parse(jsonString);
             var workbookRange = new WorkbookRange
             {
                 Values = jsonDoc
@@ -53,6 +54,33 @@ namespace WriteExcelWithOneDrive
                 .Range(rangeAddress).Request().PatchAsync(workbookRange);
 
             Console.WriteLine("Data written successfully");
+        }
+
+        public static async Task ReadExcelData(GraphServiceClient client, string driveID, string ID, string worksheetName, string rangeAddress)
+        {
+
+            var range = await client.Users[userEmail].Drive.Items[ID].Workbook.Worksheets[worksheetName].Range(rangeAddress).Request().GetAsync();
+
+            if (range.Values != null)
+            {
+                string jsonString=JsonSerializer.Serialize(range.Values);
+                JsonDocument json=JsonDocument.Parse(jsonString);
+                if (json.RootElement.ValueKind == JsonValueKind.Array)
+                {
+                    foreach (JsonElement row in json.RootElement.EnumerateArray())
+                    {
+                        foreach (JsonElement cell in row.EnumerateArray())
+                        {
+                            Console.Write(cell.ToString()+" \t "); 
+                        }
+                        Console.WriteLine();
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("No data found");
+            }
         }
     }
 }
