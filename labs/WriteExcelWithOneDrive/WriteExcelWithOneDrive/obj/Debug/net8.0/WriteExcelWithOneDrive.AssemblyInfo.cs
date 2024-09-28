@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WriteExcelWithOneDrive")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2eacbc796d96bd1a8197b9f4c098b14ffc713bbf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d437692429eb1ec3765c2c0f58899886049cd18")]
 [assembly: System.Reflection.AssemblyProductAttribute("WriteExcelWithOneDrive")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WriteExcelWithOneDrive")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

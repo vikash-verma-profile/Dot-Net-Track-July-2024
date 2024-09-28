@@ -12,7 +12,7 @@ namespace WriteExcelWithOneDrive
         private static readonly string userEmail = "VikashVerma@ervikashverma.onmicrosoft.com";
         private static readonly string workSheetName = "Sheet1";
         private static readonly string rangeAddress = "A1:C4";
-        static async Task Main(string[] args)
+        static async Task Main1(string[] args)
         {
             var credential = new ClientSecretCredential(tenantId, clientId, clientSecret);
             var client = new GraphServiceClient(credential);
