@@ -21,3 +21,4 @@ C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\NewSampleForLog4Net\
 C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\NewSampleForLog4Net\NewSampleForLog4Net\obj\Debug\net8.0\NewSampleForLog4Net.genruntimeconfig.cache
 C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\NewSampleForLog4Net\NewSampleForLog4Net\obj\Debug\net8.0\ref\NewSampleForLog4Net.dll
 C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\NewSampleForLog4Net\NewSampleForLog4Net\bin\Debug\net8.0\log4net.config
+C:\Users\Level Up Solutions 1\Desktop\course-structure\labs\NewSampleForLog4Net\NewSampleForLog4Net\bin\Debug\net8.0\log4net.Ext.Json.dll

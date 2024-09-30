@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NewSampleForLog4Net")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e36e4589722fc36089a326d807ffa335a26e39c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f4fac941a4de312567272b0f35c69acf313787a")]
 [assembly: System.Reflection.AssemblyProductAttribute("NewSampleForLog4Net")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NewSampleForLog4Net")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

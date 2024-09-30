@@ -49,6 +49,10 @@
             "log4net": {
               "target": "Package",
               "version": "[2.0.10, )"
+            },
+            "log4net.Ext.Json": {
+              "target": "Package",
+              "version": "[2.0.10.1, )"
             }
           },
           "imports": [
