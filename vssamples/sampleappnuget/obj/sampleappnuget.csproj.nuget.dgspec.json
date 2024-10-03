@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\sampleapp\\sampleapp.csproj": {}
+    "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\sampleappnuget\\sampleappnuget.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\sampleapp\\sampleapp.csproj": {
+    "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\sampleappnuget\\sampleappnuget.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\sampleapp\\sampleapp.csproj",
-        "projectName": "sampleapp",
-        "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\sampleapp\\sampleapp.csproj",
+        "projectUniqueName": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\sampleappnuget\\sampleappnuget.csproj",
+        "projectName": "sampleappnuget",
+        "projectPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\sampleappnuget\\sampleappnuget.csproj",
         "packagesPath": "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\sampleapp\\obj\\",
+        "outputPath": "C:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\sampleappnuget\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Level Up Solutions 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
