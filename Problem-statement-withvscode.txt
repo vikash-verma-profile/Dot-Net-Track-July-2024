@@ -1,0 +1,20 @@
+creating a simple system for handling different types of accounts in a banking application using inheritance. This task focuses on demonstrating the use of inheritance, method overriding, and polymorphism.
+
+Requirements:
+Base Class (Account):
+
+Create a base class Account with properties: AccountNumber, Balance.
+Implement a method Deposit(decimal amount) that adds money to the account balance.
+Implement a virtual method Withdraw(decimal amount) that deducts money from the account balance (if sufficient funds exist) and displays the updated balance.
+Derived Classes:
+
+Create two derived classes:
+SavingsAccount: Inherits from Account. Has an additional InterestRate property. Override the Withdraw(decimal amount) method to ensure that a minimum balance of 500 is maintained after withdrawal.
+CurrentAccount: Inherits from Account. Override the Withdraw(decimal amount) method to allow overdrafts (i.e., the balance can go negative).
+Input:
+
+Create an instance of both SavingsAccount and CurrentAccount.
+Perform deposit and withdrawal operations on each account.
+Output:
+
+The console should display messages about the operations performed on each account, including whether the withdrawal was successful and the current balance.
