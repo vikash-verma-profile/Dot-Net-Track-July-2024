@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\sampleapp\\sampleapp.csproj": {}
+    "c:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\bankapp\\bankapp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\sampleapp\\sampleapp.csproj": {
+    "c:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\bankapp\\bankapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\sampleapp\\sampleapp.csproj",
-        "projectName": "sampleapp",
-        "projectPath": "c:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\sampleapp\\sampleapp.csproj",
+        "projectUniqueName": "c:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\bankapp\\bankapp.csproj",
+        "projectName": "bankapp",
+        "projectPath": "c:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\bankapp\\bankapp.csproj",
         "packagesPath": "C:\\Users\\Level Up Solutions 1\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\sampleapp\\obj\\",
+        "outputPath": "c:\\Users\\Level Up Solutions 1\\Desktop\\course-structure\\vssamples\\bankapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Level Up Solutions 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
