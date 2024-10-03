@@ -1,0 +1,5 @@
+==> help us to create a new project
+dotnet new console -n sampleapp
+
+==> run your code
+dotnet run
