@@ -3,3 +3,9 @@ dotnet new console -n sampleapp
 
 ==> run your code
 dotnet run
+
+==> add any depedency to project
+dotnet add package Newtonsoft.json
+
+==> restore dependency
+dotnet restore
